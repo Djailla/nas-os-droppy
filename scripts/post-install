@@ -1,5 +1,0 @@
-#!/bin/sh
-
-echo "{\"port\":$RAINBOW_PORT_WEB_UI, \"path\":\"$RAINBOW_WEB_PATH\"}" > /opt/droppy/.config
-
-exit 0
