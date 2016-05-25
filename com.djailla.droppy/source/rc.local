@@ -3,13 +3,13 @@
 # rc.local
 #
 
-sed -i "s/\"port\":[0-9]*/\"port\":$RAINBOW_PORT_WEB_UI/" /opt/droppy/.config
+sed -i "s/\"port\":[0-9]*/\"port\":$RAINBOW_PORT_WEB_UI/" /opt/droppy/.rainbow
 
 case $1 in
   start)
     # Set the correct port information
     /opt/droppy/update_port.py $RAINBOW_PORT_WEB_UI
-    droppy start -f /shares
+    droppy start --filesdir /shares --configdir /opt/droppy
     ;;
   stop)
     killall droppy

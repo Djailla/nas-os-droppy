@@ -4,6 +4,7 @@ mkdir -m 755 -p /opt/droppy/
 
 install -m 755 /home/source/rc.local /etc
 install -m 755 /home/source/update_port.py /opt/droppy
+install -m 755 /home/source/config.json /opt/droppy
 
 # Install nodejs components
 apt-get update

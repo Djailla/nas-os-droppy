@@ -7,7 +7,7 @@ import sys
 
 def update_port_info(value):
 
-    with open('/root/.droppy/config/config.json', 'r+') as settingsData:
+    with open('/opt/droppy/config.json', 'r+') as settingsData:
         settings = json.load(settingsData)
         settings['listeners'][0]['port'] = value
 

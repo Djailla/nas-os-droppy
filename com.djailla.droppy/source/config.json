@@ -1,0 +1,18 @@
+{
+  "listeners" : [
+      {
+          "host"     : ["0.0.0.0", "::"],
+          "port"     : 7474,
+          "protocol" : "http"
+      }
+  ],
+  "public"          : false,
+  "timestamps"      : true,
+  "linkLength"      : 5,
+  "logLevel"        : 2,
+  "maxFileSize"     : 0,
+  "updateInterval"  : 1000,
+  "pollingInterval" : 0,
+  "keepAlive"       : 20000,
+  "allowFrame"      : false
+}
