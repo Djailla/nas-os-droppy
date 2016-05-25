@@ -10,6 +10,7 @@ case $1 in
     # Set the correct port information
     /opt/droppy/update_port.py $RAINBOW_PORT_WEB_UI
     droppy start -f /shares
+    ;;
   stop)
     killall droppy
     ;;
