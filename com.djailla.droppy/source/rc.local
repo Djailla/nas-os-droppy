@@ -9,7 +9,7 @@ case $1 in
   start)
     # Set the correct port information
     /opt/droppy/update_port.py $RAINBOW_PORT_WEB_UI
-    droppy start --filesdir /shares --configdir /opt/droppy
+    droppy start --filesdir /shares --configdir /opt/droppy -d
     ;;
   stop)
     killall droppy
