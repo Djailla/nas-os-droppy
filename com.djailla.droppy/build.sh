@@ -20,6 +20,6 @@ else
 fi
 
 # # Install the component
-npm install droppy
+npm install -g droppy
 
 exit 0
