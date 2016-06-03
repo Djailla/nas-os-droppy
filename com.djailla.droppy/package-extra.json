@@ -1,19 +1,20 @@
 {
     "name": {
-        "en": "droppy"
+        "en": "Droppy"
     },
     "description_short": {
-        "en": "Haste is the prettiest, easiest to use pastebin ever made."
+        "en": "droppy creates nested drop down menus from semantic markup, by the power of jQuery."
     },
-    "visibility": "always",
-    "categories": [
-        "productivity"
-    ],
-    "publication_date": "2016-05-25",
-    "publisher_name": "Djailla",
-    "publisher_contact": "bastien.vallet@gmail.com",
+    "description_long": {
+        "en": "Quick and dirty nested drop-down menu in the jQuery styleee. I needed a nav like this for a recent project and a quick Googling turned up nothing that really suited, so droppy was born. It hasn't been designed with flexibility in mind - if you like what you see, great, integration should be a breeze - otherwise I'd look for something more configurable elsewhere."
+    },
     "supported_languages": [
         "en"
     ],
+    "categories": [
+        "productivity"
+    ],
+    "publisher_name": "Djailla",
+    "publisher_contact": "bastien.vallet@gmail.com",
     "website_url": "https://github.com/Djailla/nas-os-droppy/"
 }
