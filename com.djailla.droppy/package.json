@@ -3,7 +3,7 @@
     "id": "com.djailla.droppy",
     "version": "1.0.0",
     "depends": [
-        "org.debian.wheezy-lamp-1.2"
+        "org.debian.jessie-lamp-1.0"
     ],
     "redirect_mode": "custom",
     "network_ports": {
